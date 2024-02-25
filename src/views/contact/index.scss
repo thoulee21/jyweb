@@ -1,0 +1,84 @@
+.contact-page {
+  .contact-page-top {
+    background: url("../../assets/images/link.jpg") 100% no-repeat;
+    height: 900px;
+    .content {
+      .name {
+      }
+      .tell {
+      }
+      .mail {
+      }
+    }
+  }
+  .contact-page-middle {
+    padding: 80px 260px;
+    .middle-content {
+      margin: auto;
+      display: flex;
+      width: 1400px;
+      height: 800px;
+
+      .middle-content-left {
+        padding: 70px 0 70px 40px;
+        border: 10px solid #000000;
+        border-radius: 30px 0 0 30px;
+        border-right: none;
+
+        .title {
+          font-size: 64px;
+          font-family: ZhanKuHuangYou, ZhanKuHuangYou-Normal;
+          font-weight: normal;
+          text-align: LEFT;
+          color: #333333;
+        }
+        .comput-name {
+          display: inline-block;
+          margin: 45px 0;
+          width: 604px;
+          height: 101px;
+          border: 2px solid #797979;
+          border-radius: 10px;
+        }
+        .tell-number {
+          display: inline-block;
+          width: 604px;
+          height: 101px;
+          border: 2px solid #797979;
+          border-radius: 10px;
+          margin-bottom: 30px;
+        }
+        .comput-name,
+        .tell-number {
+          font-size: 28px;
+          font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+          font-weight: normal;
+          text-align: LEFT;
+          color: #a69797;
+          padding-left: 33px;
+        }
+        .link-people {
+          width: 604px;
+          height: 101px;
+          background: #39a6a6;
+          border: 1px solid #797979;
+          border-radius: 10px;
+          font-size: 28px;
+          font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+          font-weight: normal;
+          text-align: LEFT;
+          color: #ffffff;
+          padding: 31px 33px;
+        }
+      }
+      .middle-content-right {
+        img {
+          display: inline-block;
+          width: 671px;
+          height: 800px;
+          border-radius: 0px 30px 30px 0px;
+        }
+      }
+    }
+  }
+}
