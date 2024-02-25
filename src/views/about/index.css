@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .about-page .about-page-top {
   width: 100%;
   height: 1080px;
@@ -9,6 +10,7 @@
   position: absolute;
   top: 445px;
   left: 151px;
+  animation: fadeInOut 3s ease 1 alternate;
 }
 
 .about-page .about-page-top .word .english {
@@ -26,6 +28,17 @@
   font-weight: normal;
   text-align: LEFT;
   color: #333333;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  /* from状态，初始时完全透明 */
+  100% {
+    opacity: 1;
+  }
+  /* to状态，最后时再次完全透明 */
 }
 
 .about-page .about-page-middle {

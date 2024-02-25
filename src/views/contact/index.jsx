@@ -1,5 +1,7 @@
 import React from "react";
 import linkRight from "../../assets/images/link-right.jpg";
+import dianhua from "../../assets/images/dianhua.svg";
+import lianxiwomen from "../../assets/images/lianxiwomen.svg";
 import "./index.scss";
 
 function Contact(props) {
@@ -8,8 +10,14 @@ function Contact(props) {
       <div className="contact-page-top">
         <div className="content">
           <div className="name">J.Y. Investment</div>
-          <div className="tell">+86 18800001111</div>
-          <div className="mail">11@gmail.com</div>
+          <div className="tell">
+            <img src={dianhua} alt="" />
+            +86 18800001111
+          </div>
+          <div className="mail">
+            <img src={lianxiwomen} alt="" />
+            11@gmail.com
+          </div>
         </div>
       </div>
       <div className="contact-page-middle">

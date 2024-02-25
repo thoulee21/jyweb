@@ -3,6 +3,46 @@
   height: 900px;
 }
 
+.contact-page .contact-page-top .content {
+  margin: 337px 0 0 198px;
+  display: inline-block;
+}
+
+.contact-page .contact-page-top .content .name {
+  font-size: 72px;
+  font-family: Times New Roman, Times New Roman-Normal;
+  font-weight: normal;
+  text-align: LEFT;
+  color: #ffffff;
+}
+
+.contact-page .contact-page-top .content .tell {
+  font-size: 28px;
+  font-family: Times New Roman, Times New Roman-Normal;
+  font-weight: normal;
+  text-align: LEFT;
+  color: #ffffff;
+  line-height: 28px;
+  padding: 24px 0 27px;
+}
+
+.contact-page .contact-page-top .content .mail {
+  font-size: 28px;
+  font-family: Times New Roman, Times New Roman-Normal;
+  font-weight: normal;
+  text-align: LEFT;
+  color: #ffffff;
+}
+
+.contact-page .contact-page-top .content .tell img,
+.contact-page .contact-page-top .content .mail img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  margin: 0 24px -11px 0;
+}
+
 .contact-page .contact-page-middle {
   padding: 80px 260px;
 }

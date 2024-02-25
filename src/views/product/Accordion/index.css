@@ -1,5 +1,6 @@
 .sfq {
   height: 500px;
+  width: 1400px;
   display: flex;
   justify-content: end;
   padding-right: 223px;
@@ -10,6 +11,7 @@
   height: 500px;
   border-radius: 10px;
   margin-left: 10px;
+  transition: 1s;
 }
 
 .sfq .sfq-item .sfq-content {
@@ -80,6 +82,7 @@
 .sfq .active .sfq-content {
   display: block;
   width: 381px;
+  transition: width 1s ease-out;
   height: 240px;
   font-size: 18px;
   font-family: Microsoft YaHei, Microsoft YaHei-Normal;

@@ -3,11 +3,40 @@
     background: url("../../assets/images/link.jpg") 100% no-repeat;
     height: 900px;
     .content {
+      margin: 337px 0 0 198px;
+      display: inline-block;
       .name {
+        font-size: 72px;
+        font-family: Times New Roman, Times New Roman-Normal;
+        font-weight: normal;
+        text-align: LEFT;
+        color: #ffffff;
       }
       .tell {
+        font-size: 28px;
+        font-family: Times New Roman, Times New Roman-Normal;
+        font-weight: normal;
+        text-align: LEFT;
+        color: #ffffff;
+        line-height: 28px;
+        padding: 24px 0 27px;
       }
       .mail {
+        font-size: 28px;
+        font-family: Times New Roman, Times New Roman-Normal;
+        font-weight: normal;
+        text-align: LEFT;
+        color: #ffffff;
+      }
+      .tell,
+      .mail {
+        img {
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+          color: #fff;
+          margin: 0 24px -11px 0;
+        }
       }
     }
   }

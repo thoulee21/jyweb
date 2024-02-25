@@ -29,7 +29,7 @@ function About(props) {
           <div className="lead-figure-right">
             <ul>
               {leadDate.map((item) => {
-                return <li>{item.title}</li>;
+                return <li key={item.title}>{item.title}</li>;
               })}
             </ul>
           </div>
