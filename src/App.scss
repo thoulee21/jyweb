@@ -1,0 +1,70 @@
+.layout {
+  &-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0 4rem;
+    color: #333333;
+    transition: .3s;
+    background-color: transparent;
+
+    &.scrolling {
+      background-color: #fff;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      img {
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+      }
+
+      .text {
+        font-size: 1.6rem;
+      }
+    }
+
+    .nav {
+      display: flex;
+      font-size: 1.4rem;
+
+      &-item {
+        padding: 8px 20px;
+
+        &.active {
+          background-color: #79AEFF;
+          border-radius: 20px;
+        }
+      }
+
+    }
+  }
+
+  &-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10rem;
+    padding: 0 8rem;
+    background-color: rgb(49, 49, 49);
+
+    .nav {
+      display: flex;
+      gap: 4rem;
+    }
+
+    a {
+      color: #ffffff;
+    }
+  }
+}

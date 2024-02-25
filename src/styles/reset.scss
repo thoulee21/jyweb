@@ -1,0 +1,40 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333333;
+  font-size: 1.6rem;
+
+  &::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(202, 209, 219);
+  }
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}

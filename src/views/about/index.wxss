@@ -1,0 +1,5 @@
+.about-page .about-page-top {
+  width: 100%;
+  height: 1080px;
+  background-image: url(@/assets/images/about_top.jpg);
+}
