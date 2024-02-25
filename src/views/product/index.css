@@ -1,0 +1,135 @@
+.product-page {
+  margin-top: 76.8px;
+}
+
+.product-page .parduct-page-top {
+  background: url("../../assets/images/banner.jpg") no-repeat 100%;
+  height: 800px;
+  border-bottom: 1px solid #797979;
+  display: flex;
+}
+
+.product-page .parduct-page-top .top-right img {
+  display: inline-block;
+  width: 630px;
+  height: 800px;
+}
+
+.product-page .parduct-page-top .top-left {
+  margin-top: 365px;
+}
+
+.product-page .parduct-page-top .top-left .product {
+  width: 608px;
+  height: 100px;
+  background: #4d4c4c;
+  border: 1px solid #797979;
+  font-size: 72px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  font-weight: normal;
+  text-align: LEFT;
+  color: #ffffff;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.product-page .parduct-page-top .top-left .service {
+  font-size: 72px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  font-weight: normal;
+  text-align: LEFT;
+  color: #000000;
+  padding-left: 434px;
+  margin-right: 269px;
+}
+
+.product-page .parduct-page-middle {
+  padding: 97px 0 0 0;
+  border-bottom: 1px solid #797979;
+}
+
+.product-page .parduct-page-middle .middle-title {
+  font-size: 72px;
+  font-family: ZhanKuHuangYou, ZhanKuHuangYou-Normal;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.product-page .parduct-page-middle .middle-list {
+  margin-top: 24px;
+  display: flex;
+  justify-content: end;
+  padding-right: 223px;
+}
+
+.product-page .parduct-page-middle .middle-list .list-item {
+  width: 351px;
+  height: 138px;
+  background: #ffffff;
+  border: 1px solid #797979;
+  border-radius: 10px;
+  padding: 30px 0 0 70px;
+  margin-left: 22px;
+}
+
+.product-page .parduct-page-middle .middle-list .list-item .list-title {
+  font-size: 28px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  font-weight: normal;
+  text-align: LEFT;
+  color: #333333;
+}
+
+.product-page .parduct-page-middle .middle-list .list-item .list-content {
+  font-size: 18px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  font-weight: normal;
+  text-align: LEFT;
+  color: #000000;
+  margin-top: 14px;
+}
+
+.product-page .parduct-page-middle .parduct-page-middle-buttom {
+  width: 250px;
+  height: 80px;
+  background: #9abaf5;
+  border: 1px solid #797979;
+  border-radius: 10px;
+  font-size: 28px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  font-weight: normal;
+  text-align: center;
+  color: #333333;
+  margin: auto;
+  line-height: 80px;
+  margin-top: 68px;
+  margin-bottom: 58px;
+}
+
+.product-page .parduct-page-bottom .parduct-page-bottom-title {
+  font-size: 72px;
+  font-family: ZhanKuHuangYou, ZhanKuHuangYou-Normal;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+  padding: 72px 0 84px 0;
+}
+
+.product-page .parduct-page-bottom .parduct-page-bottom-contet {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 104px;
+}
+
+.product-page .parduct-page-bottom .parduct-page-bottom-contet .empty {
+  width: 525px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #797979;
+}
+
+.product-page .parduct-page-bottom .parduct-page-bottom-contet .one {
+  margin: 0 74px;
+}

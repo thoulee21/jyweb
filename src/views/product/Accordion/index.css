@@ -1,0 +1,89 @@
+.sfq {
+  height: 500px;
+  display: flex;
+  justify-content: end;
+  padding-right: 223px;
+}
+
+.sfq .sfq-item {
+  width: 240px;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.sfq .sfq-item .sfq-content {
+  display: none;
+}
+
+.sfq .sfq-item .sfq-title {
+  padding: 38px 0 19px 0;
+  text-align: center;
+  font-size: 28px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.sfq .sfq-item .sfq-synopsis {
+  width: 190px;
+  height: 75px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  font-weight: normal;
+  text-align: LEFT;
+  color: #ffffff;
+}
+
+.sfq .sfqOne {
+  background: url("../../../assets/images/sfq1.jpg") 100% no-repeat;
+}
+
+.sfq .sfqTwo {
+  background: url("../../../assets/images/sfq2.jpg") 100% no-repeat;
+}
+
+.sfq .sfqThr {
+  background: url("../../../assets/images/sfq3.jpg") 100% no-repeat;
+}
+
+.sfq .sfqFour {
+  background: url("../../../assets/images/sfq4.jpg") 100% no-repeat;
+}
+
+.sfq .sfqFive {
+  background: url("../../../assets/images/sfq5.jpg") 100% no-repeat;
+}
+
+.sfq .active {
+  width: 497px;
+  height: 499px;
+  background: #ffffff;
+  border: 5px solid #4f4f4f;
+  border-radius: 10px;
+  padding: 0 0 0 71px;
+}
+
+.sfq .active .sfq-synopsis {
+  display: none;
+}
+
+.sfq .active .sfq-title {
+  font-size: 28px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  font-weight: normal;
+  text-align: LEFT;
+  color: #000000;
+}
+
+.sfq .active .sfq-content {
+  display: block;
+  width: 381px;
+  height: 240px;
+  font-size: 18px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  font-weight: normal;
+  color: #000000;
+  line-height: 20px;
+}
