@@ -1,24 +1,25 @@
 .about-page {
   .about-page-top {
     width: 100%;
-    height: 1080px;
-    background: url("../../assets/images/about_top.jpg") 100% no-repeat;
+    height: 67.5rem;
+    background: url("../../assets/images/about_top.jpg") no-repeat;
+    background-size: contain;
     position: relative;
     .word {
       position: absolute;
-      top: 445px;
-      left: 151px;
+      top: 27.8rem;
+      left: 9.4rem;
       animation: fadeInOut 3s ease 1 alternate;
       .english {
-        font-size: 48px;
+        font-size: 3rem;
         font-family: Times New Roman, Times New Roman-Normal;
         font-weight: normal;
         text-align: LEFT;
         color: #333333;
-        margin-bottom: 14px;
+        margin-bottom: 0.9rem;
       }
       .chainese {
-        font-size: 42px;
+        font-size: 2.6rem;
         font-family: SimSun, SimSun-Bold;
         font-weight: normal;
         text-align: LEFT;
@@ -30,102 +31,99 @@
     0% {
       opacity: 0;
     } /* from状态，初始时完全透明 */
-    // 50% {
-    //   opacity: 1;
-    // } /* to状态，中间时完全不透明 */
     100% {
       opacity: 1;
     } /* to状态，最后时再次完全透明 */
   }
   .about-page-middle {
-    margin-top: 184px;
+    margin-top: 11.5rem;
     display: flex;
-    padding: 0 124px 0 151px;
+    padding: 0 7.8rem 0 9.4rem;
 
     .about-page-left {
-      margin-right: 152px;
+      margin-right: 9.5rem;
       flex: 0 34%;
 
       .title {
-        font-size: 42px;
+        font-size: 2.6rem;
         font-family: Microsoft YaHei, Microsoft YaHei-Normal;
         font-weight: normal;
         text-align: LEFT;
         color: #333333;
-        margin-top: 54px;
+        margin-top: 3.4rem;
         &::after {
-          width: 336px;
-          height: 4px;
+          width: 21rem;
+          height: 0.3rem;
           background: #000000;
-          border-radius: 0px;
+          border-radius: 0rem;
           content: "";
           display: inline-block;
-          top: -31px;
+          top: -1.9rem;
           position: relative;
         }
       }
       .content {
-        font-size: 24px;
-        margin-top: 30px;
-        height: 476px;
+        font-size: 1.5rem;
+        margin-top: 1.9rem;
+        height: 29.8rem;
         font-family: Microsoft YaHei, Microsoft YaHei-Normal;
         font-weight: normal;
         text-align: LEFT;
         color: #333333;
-        line-height: 36px;
+        line-height: 2.3rem;
       }
     }
-    .abouy-page-right {
+    .about-page-right {
       img {
         display: inline-block;
-        width: 836px;
+        width: 52.3rem;
       }
     }
   }
   .lead-figure {
-    height: 1080px;
-    margin-top: 141px;
+    height: 67.5rem;
+    margin-top: 8.8rem;
     background: #c9c9c9;
-    padding: 0 314px 0 217px;
+    padding: 0 19.6rem 0 13.6rem;
     .lead-title {
-      font-size: 48px;
+      font-size: 3rem;
       font-family: Microsoft YaHei, Microsoft YaHei-Normal;
       font-weight: normal;
       text-align: center;
       color: #333333;
-      padding: 139px 0 77px 0;
+      padding: 8.7rem 0 4.8rem 0;
     }
     .content-lead {
       display: flex;
 
       .lead-figure-left {
-        width: 465px;
-        height: 661px;
-        border-radius: 10px;
+        width: 29.1rem;
+        height: 41.3rem;
+        border-radius: 0.6rem;
         overflow: hidden;
         background-color: #fff;
       }
       .lead-figure-right {
-        margin-left: 212px;
-        width: 658px;
-        height: 612px;
-        font-size: 24px;
+        margin-left: 13.3rem;
+        width: 41.1rem;
+        height: 38.3rem;
+        font-size: 1.5rem;
         font-family: Microsoft YaHei, Microsoft YaHei-Normal;
         font-weight: normal;
         ul li {
-          line-height: 35px;
-          margin-bottom: 10px;
+          line-height: 2.2rem;
+          margin-bottom: 0.6rem;
         }
       }
     }
   }
   .about-page-bottom {
-    padding: 61px 185px;
+    padding: 3.8rem 11.6rem;
     img {
       display: inline-block;
-      width: 1550px;
-      height: 394px;
-      border-radius: 33px;
+      width: 96.9rem;
+      height: 24.6rem;
+      border-radius: 2.1rem;
     }
   }
 }

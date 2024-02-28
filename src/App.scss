@@ -10,11 +10,18 @@
     height: 6rem;
     padding: 0 4rem;
     color: #333333;
-    transition: .3s;
+    transition: 0.3s;
     background-color: transparent;
 
     &.scrolling {
       background-color: #fff;
+    }
+    &.contact {
+      border-bottom: solid 1px #fff;
+      a,
+      span {
+        color: #fff;
+      }
     }
 
     .logo {
@@ -42,11 +49,10 @@
         padding: 8px 20px;
 
         &.active {
-          background-color: #79AEFF;
+          background-color: #79aeff;
           border-radius: 20px;
         }
       }
-
     }
   }
 

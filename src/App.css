@@ -1,0 +1,76 @@
+.layout-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  padding: 0 4rem;
+  color: #333333;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+.layout-header.scrolling {
+  background-color: #fff;
+}
+
+.layout-header.contact {
+  border-bottom: solid 1px #fff;
+}
+
+.layout-header.contact a,
+.layout-header.contact span {
+  color: #fff;
+}
+
+.layout-header .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.layout-header .logo img {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.layout-header .logo .text {
+  font-size: 1.6rem;
+}
+
+.layout-header .nav {
+  display: flex;
+  font-size: 1.4rem;
+}
+
+.layout-header .nav-item {
+  padding: 8px 20px;
+}
+
+.layout-header .nav-item.active {
+  background-color: #79aeff;
+  border-radius: 20px;
+}
+
+.layout-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10rem;
+  padding: 0 8rem;
+  background-color: #313131;
+}
+
+.layout-footer .nav {
+  display: flex;
+  gap: 4rem;
+}
+
+.layout-footer a {
+  color: #ffffff;
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .contact-page .contact-page-top {
   background: url("../../assets/images/link.jpg") 100% no-repeat;
   height: 900px;
@@ -10,7 +11,7 @@
 
 .contact-page .contact-page-top .content .name {
   font-size: 72px;
-  font-family: Times New Roman, Times New Roman-Normal;
+  font-family: "站酷高端黑", system-ui;
   font-weight: normal;
   text-align: LEFT;
   color: #ffffff;
@@ -43,6 +44,17 @@
   margin: 0 24px -11px 0;
 }
 
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  /* from状态，初始时完全透明 */
+  100% {
+    opacity: 1;
+  }
+  /* to状态，最后时再次完全透明 */
+}
+
 .contact-page .contact-page-middle {
   padding: 80px 260px;
 }
@@ -59,6 +71,7 @@
   border: 10px solid #000000;
   border-radius: 30px 0 0 30px;
   border-right: none;
+  position: relative;
 }
 
 .contact-page .contact-page-middle .middle-content .middle-content-left .title {
@@ -76,6 +89,7 @@
   height: 101px;
   border: 2px solid #797979;
   border-radius: 10px;
+  top: 245px;
 }
 
 .contact-page .contact-page-middle .middle-content .middle-content-left .tell-number {
@@ -85,10 +99,12 @@
   border: 2px solid #797979;
   border-radius: 10px;
   margin-bottom: 30px;
+  top: 440px;
 }
 
 .contact-page .contact-page-middle .middle-content .middle-content-left .comput-name,
 .contact-page .contact-page-middle .middle-content .middle-content-left .tell-number {
+  position: absolute;
   font-size: 28px;
   font-family: Microsoft YaHei, Microsoft YaHei-Normal;
   font-weight: normal;
@@ -109,6 +125,8 @@
   text-align: LEFT;
   color: #ffffff;
   padding: 31px 33px;
+  position: absolute;
+  bottom: 110px;
 }
 
 .contact-page .contact-page-middle .middle-content .middle-content-right img {

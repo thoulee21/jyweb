@@ -1,36 +1,53 @@
 .sfq {
-  height: 500px;
-  width: 1400px;
+  height: 31.3rem;
+  // width: 87.5rem;
   display: flex;
-  justify-content: end;
-  padding-right: 223px;
+  justify-content: center;
+  // padding-right: 13.9rem;
   .sfq-item {
-    width: 240px;
-    height: 500px;
-    border-radius: 10px;
-    margin-left: 10px;
-    transition: 1s;
+    width: 15rem;
+    height: 31.3rem;
+    border-radius: 0.6rem;
+    margin-left: 0.6rem;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    padding: 2.4rem 0.6rem;
+    box-sizing: border-box;
+    // animation: all-zero 1s ease-in-out forwards;
 
     .sfq-content {
       display: none;
+      width: 29.8rem;
+      height: 15rem;
+      font-size: 1.1rem;
+      font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+      font-weight: normal;
+      color: #000000;
+      line-height: 1.3rem;
+      pointer-events: none;
+      ul li {
+        line-height: 1.7rem;
+        margin-bottom: 0.6rem;
+      }
     }
     .sfq-title {
-      padding: 38px 0 19px 0;
+      padding: 0rem 0 1.2rem 0;
       text-align: center;
-      font-size: 28px;
+      font-size: 1.8rem;
       font-family: Microsoft YaHei, Microsoft YaHei-Normal;
       font-weight: normal;
       color: #ffffff;
     }
     .sfq-synopsis {
-      width: 190px;
-      height: 75px;
+      width: 11.9rem;
+      height: 4.7rem;
       margin: 0 auto;
-      font-size: 18px;
+      font-size: 1.1rem;
       font-family: Microsoft YaHei, Microsoft YaHei-Normal;
       font-weight: normal;
       text-align: LEFT;
       color: #ffffff;
+      line-height: 1.5rem;
     }
   }
   .sfqOne {
@@ -54,19 +71,20 @@
   }
 
   .active {
-    width: 497px;
-    height: 499px;
+    width: 38.8rem;
+    height: 31.2rem;
     background: #ffffff;
-    border: 5px solid #4f4f4f;
-    border-radius: 10px;
-    padding: 0 0 0 71px;
-
-    // box-shadow: 0px 3px 6px 0px rgba(0 0 0 0.15);
+    border: 0.3rem solid #4f4f4f;
+    border-radius: 0.6rem;
+    padding: 0 0 0 4.4rem;
+    // animation: zero-all 1s ease-in-out forwards;
     .sfq-synopsis {
+      opacity: 0;
       display: none;
     }
     .sfq-title {
-      font-size: 28px;
+      font-size: 1.8rem;
+      padding: 2.4rem 0 1.2rem 0;
       font-family: Microsoft YaHei, Microsoft YaHei-Normal;
       font-weight: normal;
       text-align: LEFT;
@@ -74,15 +92,17 @@
     }
     .sfq-content {
       display: block;
-      width: 381px;
-      transition: width 1s ease-out;
-
-      height: 240px;
-      font-size: 18px;
-      font-family: Microsoft YaHei, Microsoft YaHei-Normal;
-      font-weight: normal;
-      color: #000000;
-      line-height: 20px;
+      pointer-events: auto;
     }
+    // @keyframes zero-all {
+    //   0% {
+    //     width: 15rem;
+    //     opacity: 0;
+    //   }
+    //   100% {
+    //     width: 38.8rem;
+    //     opacity: 1;
+    //   }
+    // }
   }
 }

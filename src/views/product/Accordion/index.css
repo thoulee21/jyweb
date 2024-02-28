@@ -1,6 +1,5 @@
 .sfq {
   height: 500px;
-  width: 1400px;
   display: flex;
   justify-content: end;
   padding-right: 223px;
@@ -11,11 +10,22 @@
   height: 500px;
   border-radius: 10px;
   margin-left: 10px;
-  transition: 1s;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  padding: 38px 10px;
+  box-sizing: border-box;
 }
 
 .sfq .sfq-item .sfq-content {
-  display: none;
+  opacity: 0;
+  width: 381px;
+  height: 240px;
+  font-size: 18px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  font-weight: normal;
+  color: #000000;
+  line-height: 20px;
+  pointer-events: none;
 }
 
 .sfq .sfq-item .sfq-title {
@@ -68,6 +78,7 @@
 }
 
 .sfq .active .sfq-synopsis {
+  opacity: 0;
   display: none;
 }
 
@@ -80,13 +91,7 @@
 }
 
 .sfq .active .sfq-content {
-  display: block;
-  width: 381px;
-  transition: width 1s ease-out;
-  height: 240px;
-  font-size: 18px;
-  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
-  font-weight: normal;
-  color: #000000;
-  line-height: 20px;
+  opacity: 1;
+  pointer-events: auto;
+  overflow: hidden;
 }
