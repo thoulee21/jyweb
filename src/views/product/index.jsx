@@ -28,7 +28,9 @@ function Product(props) {
             );
           })}
         </div>
-        <div className="parduct-page-middle-buttom">点击咨询</div>
+        <div className="parduct-page-middle-buttom">
+          <a href="#">点击咨询</a>
+        </div>
       </div>
       <div className="parduct-page-bottom">
         <div className="parduct-page-bottom-title">新闻资讯/政府资料</div>
