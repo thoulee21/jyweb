@@ -9,7 +9,7 @@ function App() {
     { path: "/", name: "首页" },
     { path: "/about", name: "关于我们" },
     { path: "/product", name: "产品/服务" },
-    { path: "/news", name: "新闻资讯" },
+    // { path: "/news", name: "新闻资讯" },
     { path: "/contact", name: "联系我们" },
   ];
   const [scrolling, setScrolling] = useState(false);
@@ -49,7 +49,7 @@ function App() {
         })}
       >
         <div className="logo">
-          <img src="http://localhost:3000/logo192.png" alt="logo" />
+          {/* <img src="http://localhost:3000/logo192.png" alt="logo" /> */}
           <span className="text">君颖投资</span>
         </div>
         <nav className="nav">
