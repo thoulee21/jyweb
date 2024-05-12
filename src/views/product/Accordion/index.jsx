@@ -14,7 +14,7 @@ function Accordion(props) {
         return (
           <div
             key={item.title}
-            className={`sfq-item ${active == item.title ? "active" : ""} ${
+            className={`sfq-item ${active === item.title ? "active" : ""} ${
               item.icon
             }`}
             onMouseEnter={() => setActive(item.title)}

@@ -65,7 +65,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="illustration">
-                  <img src={item.illustration} alt="image"/>
+                  <img src={item.illustration} alt="illustration" />
                 </div>
               </div>
             ))
