@@ -29,7 +29,7 @@ function Product(props) {
           })}
         </div>
         <div className="parduct-page-middle-buttom">
-          <a href="#">点击咨询</a>
+          <a href="#conduct">点击咨询</a>
         </div>
       </div>
       <div className="parduct-page-bottom">
