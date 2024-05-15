@@ -12,17 +12,17 @@ concurrency:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu@latest
+    runs-on: ubuntu-latest
     name: Build & Deploy
     steps:
       - name: Checkout    
         uses: actions/checkout@v4
+
       - name: Install Dependencies
         run: yarn
       - name: Build
         run: yarn build
 
-      # 利用action把build好的文件上传到服务器路径下,需要确认此目录已在服务端创建
       - name: Deploy File to Server
         uses: wlixcc/SFTP-Deploy-Action@v1.0 
         with:  
