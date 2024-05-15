@@ -231,6 +231,10 @@
           text-align: left;
         }
 
+        &-submit:hover {
+          cursor: pointer;
+        }
+
         .left,
         .right {
           flex: 1;

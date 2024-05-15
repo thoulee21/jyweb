@@ -1,35 +1,35 @@
-import React, {useEffect, useRef} from "react";
-import {services} from "../../constant";
+import React, { useEffect, useRef } from "react";
+import { services } from "../../constant";
 import "./index.scss";
 
 function Home() {
   const pageRef = useRef();
   const formRef = useRef();
-  
+
   useEffect(() => {
-      const onScroll = () => {
-        const parallax = pageRef.current;
-        const scrollPosition = window.scrollY;
-        parallax.style.backgroundPositionY = scrollPosition * 0.7 + "px";
-        
-        // 注册表单: 从下到上
-        const formEl = formRef.current;
-        const clientRect = formEl.getBoundingClientRect();
-        
-        // 添加类名
-        if (clientRect.top < document.documentElement.clientHeight - 50) {
-          formEl.style.transform = "translateY(0)";
-        } else {
-          formEl.style.transform = "translateY(30%)";
-        }
-      };
-      window.addEventListener("scroll", onScroll);
-      return () => {
-        window.removeEventListener("scroll", onScroll);
-      };
-    }
+    const onScroll = () => {
+      const parallax = pageRef.current;
+      const scrollPosition = window.scrollY;
+      parallax.style.backgroundPositionY = scrollPosition * 0.7 + "px";
+
+      // 注册表单: 从下到上
+      const formEl = formRef.current;
+      const clientRect = formEl.getBoundingClientRect();
+
+      // 添加类名
+      if (clientRect.top < document.documentElement.clientHeight - 50) {
+        formEl.style.transform = "translateY(0)";
+      } else {
+        formEl.style.transform = "translateY(30%)";
+      }
+    };
+    window.addEventListener("scroll", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
+  }
     , []);
-  
+
   return (
     <div ref={pageRef} className="home-page">
       <section className="section">
@@ -73,16 +73,18 @@ function Home() {
         </div>
       </section>
       <section className="section">
-        <div className="form" ref={formRef}>
+        <form className="form" ref={formRef}>
           <div className="left">
             <div className="form-title">
               免费*为您注册公司<p>Start a business FREE*</p>
             </div>
-            <input className="form-input" type="text" placeholder="公司名称"/>
-            <button className="form-submit">快速为您匹配职业经理人</button>
+            <input className="form-input" type="text" placeholder="公司名称" />
+            <button className="form-submit" type="submit">
+              快速为您匹配职业经理人
+            </button>
           </div>
           <div className="right"></div>
-        </div>
+        </form>
         <div className="illustration"></div>
       </section>
     </div>
